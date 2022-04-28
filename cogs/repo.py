@@ -1,4 +1,5 @@
 
+from turtle import title
 from discord import Spotify
 
 
@@ -30,7 +31,7 @@ class Repo(commands.Cog):
                 color = 0xC902FF)
 
             embed.add_field(name="This repository includes of, all the commands that you are able to do.", value="For more information DM Adamyoboy#0001!")
-            embed.add_field(name="The **Spotipy** bot is a open source non-profit way to view tracks of users with little effort.", value="This bot is written in Python!")
+            embed.add_field(name="The **Spotipy** bot is a open source non-profit way to view tracks of users with little effort.", value='This bot is written in Python! \n The commands so far are only ".ad,  .repo/repository"')
             await ctx.send (embed=embed)
 
 
