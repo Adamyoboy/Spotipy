@@ -12,8 +12,6 @@ import datetime
 
 
 
-client = commands.Bot(command_prefix=commands.when_mentioned_or('.'), color=0x552E12, help_command=None,intents=discord.Intents.all(), case_insensitive=True)
-
 
 def __init__(self, client):
     self.client = client
