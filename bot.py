@@ -78,6 +78,6 @@ async def ssss():
 async def runner():
     async with client:
         await ssss()
-        await client.start("OTY4OTU5MDAxNzg0MTExMjA1.YmmbZA.TcKjbczipzOqgS_Yhv3LGY8yG2E")
+        await client.start("")
 
 asyncio.run(runner())
